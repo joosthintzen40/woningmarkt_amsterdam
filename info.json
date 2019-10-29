@@ -1,0 +1,52 @@
+[
+  {
+    "Stadsdeel": "Centrum",
+    "Transprijs": "€620.624",
+    "Prijsm2": "€6.407",
+    "Bewoners": "86.851",
+	  "Verkocht": "210"
+
+  },
+  {
+    "Stadsdeel": "Zuid",
+    "Transprijs": "€578.932",
+    "Prijsm2": "€5.758",
+    "Bewoners": "145.548",
+	  "Verkocht": "303"
+  },
+  {
+    "Stadsdeel": "West",
+    "Transprijs": "€392.709",
+    "Prijsm2": "€5.381",
+    "Bewoners": "144.210",
+	  "Verkocht": "333"
+  },
+  {
+    "Stadsdeel": "Zuidoost",
+    "Transprijs": "€244.074",
+    "Prijsm2": "€2.625",
+    "Bewoners": "87.999",
+	  "Verkocht": "56"
+  },
+  {
+    "Stadsdeel": "Oost",
+    "Transprijs": "€434.322",
+    "Prijsm2": "€4.933",
+    "Bewoners": "137.454",
+	  "Verkocht": "204"
+  },
+  {
+    "Stadsdeel": "Noord",
+    "Transprijs": "€351.606",
+    "Prijsm2": "€3.684",
+    "Bewoners": "96.275",
+	  "Verkocht": "117"
+  },
+  {
+    "Stadsdeel": "Nieuw-West",
+    "Transprijs": "€315.710",
+    "Prijsm2": "€3.425",
+    "Bewoners": "155.979",
+	  "Verkocht": "214"
+  }
+]

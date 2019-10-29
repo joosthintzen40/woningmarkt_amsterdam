@@ -1,0 +1,73 @@
+.stadsdelen {
+  fill: #cccccc;
+  stroke: #333333;
+  stroke-width: 0.6;
+}
+
+blockquote {
+  margin-top: 50px;
+}
+
+#tip {
+  position: absolute;
+  background: #fff;
+  background: -webkit-linear-gradient(top, #fff, #ccc, #fff);
+  font-family: Verdana, sans-serif;
+  font-size: 10pt;
+  padding: 3pt;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border: thin solid #aaa;
+  border-radius: 6px;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+#tip.hidden {
+  display: none;
+}
+
+.arc text {
+  font: 14px sans-serif;
+  text-anchor: middle;
+  font-weight: bold;
+
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+.legendSvp {
+  position: absolute;
+  top: 550px;
+  right: 50px;
+
+}
+div #map {
+  height: 600px;
+  width: 65%;
+  float: left;
+}
+
+#pieTitle {
+  text-anchor: middle;
+}
+
+div #pie {
+  height: 600px;
+  width: 35%;
+  float: right;
+}
+
+#svgPie {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
+
+.container-fluid {
+  padding: 0px;
+  margin-left: 0px;
+}

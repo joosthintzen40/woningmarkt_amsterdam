@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <title>abel's huizenmarkt kaart</title>
+  <link rel="stylesheet" type="text/css" href="abel.css">
+  <script type="text/javascript" src="map.js"></script>
+  <script scr="https://d3js.org/d3-collection.v1.min.js"></script>
+  <script scr="https://d3js.org/d3-dispatch.v1.min.js"></script>
+  <script scr="https://d3js.org/d3d3-dsv.v1.min.js"></script>
+  <script scr="https://d3js.org/d3-request.v1.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/colorbrewer.v1.min.js"></script>
+  <script src="https://d3js.org/topojson.v1.min.js"></script>
+  <script src="buurtenamsterdam.json"></script>
+  <script src="info.json"></script>
+
+</head>
+<body>
+  <blockquote class="blockquote text-center">
+  <p class="mb-0">Kerncijfers Amsterdamse koopwoningmarkt</p>
+  <footer class="blockquote-footer">by Abel de Graaff</footer>
+  </blockquote>
+<div class='container-fluid no padding'>
+  <div id="map"></div>
+  <div id='tip' class='hidden'></div>
+  <div id="pie"></div>
+  <p>
+    <button class='btn btn-light' type='button' data-toggle='collapse' data-target='#collapseSources'>Bronnen</button>
+  </p>
+  <div class='collapse' id='collapseSources'>
+    <div class='card card-body'><a href='http://www.woonamsterdam.info/fileadmin/website/actueel/MVA_Kwartaalcijfers_2018_1e_kwartaal.PDF' target='_blank'>Makelaars Vereniging Amsterdam (MVA)</a>
+      <a href='https://www.ois.amsterdam.nl/feiten-en-cijfers/' target='_blank'>Onderzoek, Information en Statistiek (OIS Amsterdam)</a>
+      <a href='http://www.afwc.nl/uploads/tx_news/WiA2017_Factsheet_woningmarkt_Wonen_in_Amsterdam_2017.pdf' target='_blank'>Rapport Wonen in Amsterdam 2017</a>
+      <p>* Voorlopige cijfers</p>
+    </div>
+  </div>
+  <img id= "huis" src='huis-4.jpg' class='img-responsive'</div>
+
+</body>
+</html>
